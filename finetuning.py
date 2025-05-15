@@ -47,8 +47,6 @@ from utils.train_utils import (
 )
 
 from ft_datasets import get_medre_dataset
-# import os
-# os.environ['PYTORCH_CUDA_ALLOC_CONF']='expandable_segments:True'
 
 def main(**kwargs):
     # Update the configuration for the training and sharding process

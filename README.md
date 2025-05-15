@@ -71,3 +71,8 @@ python inference.py \
     --fold 0 > log/test_checked_nochema_cured_chat_fold0.log 
 
 ```
+
+# 🌱Model evaluation
+
+We evaluate the performance of Llama-2 and GPT4o-mini using 5-folds cross validation on the TreatCorpus, and the evaluation pipeline is shown in the [results_eval.ipynb](https://github.com/Yuz7/scMapNet/results_eval.ipynb)
+
